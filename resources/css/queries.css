@@ -1,0 +1,27 @@
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .row {
+        max-width: 1000px;
+    }
+    
+    .main-nav li {
+        margin-left: 30px;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .main-nav li {
+        margin-left: 20px;
+    }
+    
+    .logo img {
+        height: 20px;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}

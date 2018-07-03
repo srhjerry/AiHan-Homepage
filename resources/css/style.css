@@ -333,53 +333,47 @@ header {
 
 
 /* ----------------------------------------------- */
-/* MEALS */
+/* GALLERY */
 /* ----------------------------------------------- */
 
-.section-notes {
-    padding: 0 10%;
-}
-
-.notes-showcase {
+.gallery-nav {
+    display: flex;
     list-style: none;
-    width: 100%;
+    font-size: 90%;
+    margin-bottom: 10px
 }
 
-.notes-showcase:first-child {
-    margin-top: 15px;
+.gallery-nav li {
+    display: inline-block;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
 }
 
-.notes-showcase li {
-    display: block;
-    float: left;
-    width: 20%;
+.gallery-nav li a:link,
+.gallery-nav li a:visited {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
 }
 
-.note-photo {
-    width: 90%;
-    margin: 13px 5px;
-    overflow: hidden;
-    background-color: #000;
+.gallery-row {
+    max-width: 1180px;
+    margin: auto;
 }
 
-.note-photo img {
-    opacity: 0.7;
-    width: 100%;
+.gallery-photo {
+    margin: 0;
+}
+
+.gallery-photo img{
+    width: 50%;
     height: auto;
-    -webkit-transform: scale(1.08);
-    -ms-transform: scale(1.08);
-    transform: scale(1.08);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
+    float: left;
+    padding: 8px;
 }
-
-.note-photo img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-}
-
 
 
 /* ----------------------------------------------- */
@@ -680,23 +674,21 @@ footer p {
 /* Animations */
 /* ----------------------------------------------- */
 
-.js--wp-1,
-.js--wp-2,
-.js--wp-3
-{
+.galpho-js-wp-1,
+.galpho-js-wp-2,
+.galpho-js-wp-3,
+.galpho-js-wp-4,
+.galpho-js-wp-5 {
     opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
 }
 
-.js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated {
+.galpho-js-wp-1.animated,
+.galpho-js-wp-2.animated,
+.galpho-js-wp-3.animated,
+.galpho-js-wp-4.animated,
+.galpho-js-wp-5.animated {
     opacity: 1;
 }
 
