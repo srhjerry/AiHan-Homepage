@@ -201,8 +201,8 @@ header {
 }
 
 .logo {
-    height: 80px;
-    width: auto;
+    width: 300px;
+    height: auto;
     float: left;
     margin-top: 20px;
 }
