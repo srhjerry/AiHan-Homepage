@@ -20,14 +20,14 @@
             <nav>
                 <div class="row">
                     <a href="/index.html"><img src="/resources/img/logo.jpg" alt="Aihan logo" class="logo"></a>
-                    <ul class="main-nav js--main-nav">
+                    <ul id="mainNav" class="main-nav js--main-nav">
                         <li><a href="/pages/profile.html">About /</a></li>
                         <li><a href="/pages/gallery.html">Photo Gallery /</a></li>
                         <li><a href="https://aihanshan.wordpress.com">Blog /</a></li>
                         <li><a href="/pages/notebook.html">A Brief Note /</a></li>
                         <li><a href="https://www.instagram.com/lachrymatorybomb/"><i class="ion-logo-instagram"></i></a></li>
                     </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><i class="icon ion-md-menu"></i></a>
+                    <a class="mobile-nav-icon js--nav-icon"><i id="navicon" class="icon ion-md-menu" onclick="change()"></i></a>
                 </div>
             </nav>
         </section>
@@ -242,4 +242,5 @@
         <script src="/vendors/js/jquery.waypoints.min.js"></script>
         <script src="/resources/js/galScript.js"></script>
         <script src="/resources/js/gal.script.js"></script>
+        <script src="/resources/js/script.js"></script>
     </body>
