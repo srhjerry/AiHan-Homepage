@@ -5,7 +5,6 @@
 .column {
   float: left;
   width: 12.5%;
-  height: 50%;
 }
 
 /* The Modal (background) */
@@ -25,15 +24,23 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: #000;
   margin: auto;
   padding: 0;
   width: 90%;
   max-width: 1200px;
 }
 
-.modal img{
-  max-height: 500px;
+.mySlides {
+    padding-bottom: 3%;
+}
+
+.mySlides img {
+    max-height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* The Close Button */
@@ -66,7 +73,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -127,3 +134,11 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media only screen and (max-width: 1023px) {
+    .mySlides img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+

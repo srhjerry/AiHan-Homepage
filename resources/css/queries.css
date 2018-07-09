@@ -2,6 +2,8 @@
 @media only screen and (max-width: 1023px) {
     body { font-size: 18px; }
     
+    .main-nav {display: block;}
+    
     .row {
         max-width: 1000px;
     }
