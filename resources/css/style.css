@@ -333,50 +333,6 @@ header {
 
 
 /* ----------------------------------------------- */
-/* GALLERY */
-/* ----------------------------------------------- */
-
-.gallery-nav {
-    display: flex;
-    list-style: none;
-    font-size: 90%;
-    margin-bottom: 10px
-}
-
-.gallery-nav li {
-    display: inline-block;
-    flex-grow: 1;
-    flex-basis: 0;
-    text-align: center;
-}
-
-.gallery-nav li a:link,
-.gallery-nav li a:visited {
-    color: #000;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
-}
-
-.gallery-row {
-    max-width: 1180px;
-    margin: auto;
-}
-
-.gallery-photo {
-    margin: 0;
-}
-
-.gallery-photo img{
-    width: 50%;
-    height: auto;
-    float: left;
-    padding: 8px;
-}
-
-
-/* ----------------------------------------------- */
 /* HOW IT WORKS SECTION */
 /* ----------------------------------------------- */
 
