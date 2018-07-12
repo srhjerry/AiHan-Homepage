@@ -7,6 +7,10 @@
   width: 12.5%;
 }
 
+.column img {
+    width: 100%;
+}
+
 /* ----------------------------------------------- */
 /* GALLERY */
 /* ----------------------------------------------- */
@@ -158,12 +162,14 @@
   color: white;
 }
 
-.demo {
+.demo,
+.demo_full {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo:hover,
+.demo_full:hover {
   opacity: 1;
 }
 
@@ -184,5 +190,20 @@ img.hover-shadow {
         max-width: 100%;
         height: auto;
     }
+}
+
+@media only screen and (max-width: 767px) {
+	.span-1-of-3 {
+		width: 50%;
+	}
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .demo_full {display: none;}
+    .column {width: 25%;}
+    .span-1-of-3 {
+		width: 100%;
+	}
 }
 
