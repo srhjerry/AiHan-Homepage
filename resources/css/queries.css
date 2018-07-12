@@ -71,6 +71,7 @@
     .profile-textbox {
         border: none;
         background-size: 100%;
-        background-position: 50% 70%;
+        background-position: 100% 0%;
+        background-attachment: scroll;
     }
 }
