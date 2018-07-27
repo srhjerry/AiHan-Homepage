@@ -48,7 +48,7 @@ function showSlides(n) {
   
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
-      dots[i].src = "/resources/img/gallery/thumbnail/"+((i+slideIndex-3+85)%85)+".jpg";
+      dots[i].src = "/resources/img/gallery/thumbnail/"+((i+slideIndex-4+84)%84+1)+".jpg";
   }
     
   dots[slideIndex-1].className += " active";
