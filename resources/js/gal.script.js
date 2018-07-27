@@ -1,3 +1,23 @@
+function openTab(part) {
+    var tabs = document.getElementsByClassName('gallery-tab');
+    
+    for(var i = 0; i<tabs.length; i++){
+        tabs[i].style.display = "none";   
+    }
+    document.getElementById('gallery-main').style.display = "none";
+    document.getElementById("part" + part).style.display = "block";
+}
+
+function closeTab() {
+    var tabs = document.getElementsByClassName('gallery-tab');
+    
+    for(var i = 0; i<tabs.length; i++){
+        tabs[i].style.display = "none";   
+    }
+    
+    document.getElementById('gallery-main').style.display = "block";
+}
+
 function openModal() {
   document.getElementById('myModal').style.display = "block";
   document.getElementById('navicon').style.display = "none";

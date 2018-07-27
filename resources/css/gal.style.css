@@ -19,6 +19,7 @@
     display: flex;
     list-style: none;
     font-size: 85%;
+    margin-bottom: 10px;
 }
 
 .gallery-nav li {
@@ -52,6 +53,48 @@
     float: left;
     margin: 1%;
     cursor: pointer;
+}
+
+.gallery-tab {
+    display: none;
+    position: relative;
+}
+
+.gallery-textfield {
+    clear: both;
+    color: black;
+}
+
+.gallery-textfield h2 {
+    padding-top: 50px;
+    font-size: 85%;
+}
+
+.gallery-textfield p {
+    margin: 40px 0px;
+    font-size: 85%;
+    line-height: 150%;
+}
+
+.gallery-textfield p:last-child {
+    margin: 0;
+}
+
+.gallery-exhibition {
+    position: relative;
+}
+
+.gallery-exhibition img {
+    display: block;
+    transform: scale(0.75);
+}
+
+.gallery-exhibition p {
+    position: absolute;
+    left: 35%;
+    bottom: 8%;
+    
+    font-size: 80%;
 }
 
 /* The Modal (background) */
@@ -102,6 +145,22 @@
 
 .close:hover,
 .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeT {
+  color: black;
+  position: absolute;
+  top: -1%;
+  right: -1%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closeT:hover,
+.closeT:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
