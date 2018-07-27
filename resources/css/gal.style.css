@@ -18,8 +18,7 @@
 .gallery-nav {
     display: flex;
     list-style: none;
-    font-size: 90%;
-    margin-bottom: 10px
+    font-size: 85%;
 }
 
 .gallery-nav li {
@@ -196,6 +195,10 @@ img.hover-shadow {
 	.span-1-of-3 {
 		width: 50%;
 	}
+    
+    .gallery-nav {
+        display: none;
+    }
 }
 
 /* Small phones: from 0 to 480px */
