@@ -200,6 +200,10 @@ header {
     height: auto;
 }
 
+#indexFt {
+    margin-top: -10px;
+}
+
 .logo {
     width: 300px;
     height: auto;
