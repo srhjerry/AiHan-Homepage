@@ -254,6 +254,10 @@ header {
     color: #000;
 }
 
+.mobile-mainNav {
+    display: none;
+}
+
 
 /* Sticky navi */
 .sticky {

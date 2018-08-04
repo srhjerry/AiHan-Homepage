@@ -258,6 +258,10 @@ img.hover-shadow {
     .gallery-nav {
         display: none;
     }
+    
+    .closeT {
+        display: none;
+    }
 }
 
 /* Small phones: from 0 to 480px */

@@ -53,9 +53,20 @@
     .main-nav li a:visited {
         display: block;
         border: 0;
-        padding: 5px 0;
-        font-size: 100%;
+        padding: 8px 0;
+        font-size: 140%;
     }
+    
+    .mobile-mainNav {
+        display: inline-block;
+    }
+
+    .mobile-mainNav li a:link {
+        font-size: 100%;
+        font-weight: lighter;
+        letter-spacing: 4px;
+    }
+    
     
     .HP-Background{
         padding-top: 15px;
@@ -77,5 +88,9 @@
         background-size: 100%;
         background-position: 100% 0%;
         background-attachment: scroll;
+    }
+    
+    footer {
+        padding: 20px;
     }
 }
