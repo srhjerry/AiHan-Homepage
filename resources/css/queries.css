@@ -79,7 +79,7 @@
 
 @media only screen and (max-height: 767px) {
     .main-nav {
-        line-height: 100%;
+        line-height: 90%;
     }
     
     .main-nav li a:link,
