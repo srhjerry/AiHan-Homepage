@@ -76,6 +76,21 @@
         display: none;
     }
 }
+
+@media only screen and (max-height: 767px) {
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 4px 0;
+        font-size: 120%;
+    }
+    
+    .mobile-mainNav li a:link {
+        font-size: 80%;
+        font-weight: lighter;
+        letter-spacing: 4px;
+    }
+}
+
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     .profile-photo {
