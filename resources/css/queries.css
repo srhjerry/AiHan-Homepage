@@ -78,6 +78,10 @@
 }
 
 @media only screen and (max-height: 767px) {
+    .main-nav {
+        line-height: 100%;
+    }
+    
     .main-nav li a:link,
     .main-nav li a:visited {
         padding: 1px 0;
