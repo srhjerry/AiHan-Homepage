@@ -262,6 +262,10 @@ img.hover-shadow {
     .closeT {
         display: none;
     }
+    
+    .mobile-mainNav {
+        padding-bottom: 10px;
+    }
 }
 
 /* Small phones: from 0 to 480px */
