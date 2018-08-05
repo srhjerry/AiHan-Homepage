@@ -101,6 +101,20 @@
     font-size: 80%;
 }
 
+#script {
+    position: relative;
+}
+
+.addLine {
+    display: none;
+}
+
+.post-script.addLine {
+    display: inline;
+    position: absolute;
+    right: %;
+}
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -254,7 +268,7 @@ img.hover-shadow {
     }
     
     .gallery-exhibition p {
-        bottom: 80px;
+        bottom: 75px;
     }
 }
 
@@ -275,13 +289,23 @@ img.hover-shadow {
         padding-bottom: 20px;
     }
     
+    .gallery-exhibition {
+        margin: 5% 0 -5% 0;
+    }
+    
     .gallery-exhibition img {
         transform: scale(0.9);
     }
     
     .gallery-exhibition p {
-        bottom: 35px;
+        bottom: 30px;
         font-size: 70%;
+    }
+    
+    .post-script.addLine {
+        display: inline;
+        position: absolute;
+        right: 5%;
     }
 }
 
@@ -299,7 +323,21 @@ img.hover-shadow {
     }
     
     .gallery-exhibition p {
-        bottom: 30px;
+        bottom: 25px;
         font-size: 50%;
+    }
+    
+    .post-script.addLine {
+        display: inline;
+        position: absolute;
+        right: 5%;
+    }
+    
+    .addLine {
+        display: inline;
+    }
+    
+    .eraseLine {
+        display: none;
     }
 }
