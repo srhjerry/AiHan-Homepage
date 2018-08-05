@@ -19,8 +19,15 @@ function closeTab() {
 }
 
 function openModal() {
+  let navi = document.getElementById('navicon');
+  let menu = document.getElementById("mainNav");
+
   document.getElementById('myModal').style.display = "block";
-  document.getElementById('navicon').style.display = "none";
+  navi.style.display = "none";
+    
+  if(menu.style.display === "block") {
+      menu.style.display = "none";
+  }
 }
 
 function closeModal() {
