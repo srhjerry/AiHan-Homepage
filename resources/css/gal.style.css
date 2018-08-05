@@ -63,6 +63,7 @@
 .gallery-textfield {
     clear: both;
     color: black;
+    margin: 2%
 }
 
 .gallery-textfield h2 {
@@ -81,18 +82,21 @@
 }
 
 .gallery-exhibition {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .gallery-exhibition img {
-    display: block;
     transform: scale(0.75);
+    max-width: 100%;
+    position: relative;
 }
 
 .gallery-exhibition p {
-    position: absolute;
-    left: 35%;
-    bottom: 8%;
+    position: relative;
+    text-align: center;
+    bottom: 100px;
     
     font-size: 80%;
 }
@@ -248,6 +252,10 @@ img.hover-shadow {
         max-width: 100%;
         height: auto;
     }
+    
+    .gallery-exhibition p {
+        bottom: 80px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -266,6 +274,15 @@ img.hover-shadow {
     .mobile-mainNav {
         padding-bottom: 20px;
     }
+    
+    .gallery-exhibition img {
+        transform: scale(0.9);
+    }
+    
+    .gallery-exhibition p {
+        bottom: 35px;
+        font-size: 70%;
+    }
 }
 
 /* Small phones: from 0 to 480px */
@@ -275,4 +292,14 @@ img.hover-shadow {
     .span-1-of-3 {
 		width: 100%;
 	}
+    
+    .gallery-textfield p {
+        margin: 20px 0px;
+        font-size: 80%;
+    }
+    
+    .gallery-exhibition p {
+        bottom: 30px;
+        font-size: 50%;
+    }
 }
