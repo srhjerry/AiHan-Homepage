@@ -88,7 +88,7 @@ function getPhotoSRC(slideIndex){
     return photosrc;
 }
 
-window.onload = function() {
+/*window.onload = function() {
 	setTimeout(function() {
 		// preload image
         let i;
@@ -97,4 +97,4 @@ window.onload = function() {
 		  new Image().src = getPhotoSRC(i);
         }
 	}, 5000);
-};
+};*/
