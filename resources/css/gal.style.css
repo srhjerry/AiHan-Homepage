@@ -63,7 +63,7 @@
 .gallery-textfield {
     clear: both;
     color: black;
-    margin: 2%
+    margin: 0 4%;
 }
 
 .gallery-textfield h2 {
@@ -137,6 +137,24 @@
   padding: 0;
   width: 90%;
   max-width: 1200px;
+}
+
+/* Add Animation */
+.mySlides{    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
 }
 
 .mySlides {
