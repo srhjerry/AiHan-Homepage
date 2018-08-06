@@ -55,6 +55,14 @@
     cursor: pointer;
 }
 
+.RWDdisplay {
+    display: none;
+}
+
+.RWDmiddle {
+    display: none;
+}
+
 .gallery-tab {
     display: none;
     position: relative;
@@ -308,6 +316,14 @@ img.hover-shadow {
         font-size: 75%;
     }
     
+    .RWDhidden {
+        display: none;
+    }
+    
+    .RWDmiddle {
+        display: block;
+    }
+    
     .gallery-exhibition {
         margin: 5% 0 -5% 0;
     }
@@ -335,6 +351,14 @@ img.hover-shadow {
     .span-1-of-3 {
 		width: 100%;
 	}
+    
+    .RWDdisplay {
+        display: block;
+    }
+    
+    .RWDmiddle {
+        display: none;
+    }
     
     .gallery-textfield p {
         margin: 20px 0px;
