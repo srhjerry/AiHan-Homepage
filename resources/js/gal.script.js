@@ -25,8 +25,8 @@ function openModal() {
   document.getElementById('myModal').style.display = "block";
   navi.style.display = "none";
     
-  if(menu.style.display === "block") {
-      menu.style.display = "none";
+  if(menu.style.right != "-280px") {
+      menu.style.right = "-280px";
   }
 }
 
