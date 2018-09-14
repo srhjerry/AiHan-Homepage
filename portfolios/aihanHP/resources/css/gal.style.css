@@ -1,0 +1,412 @@
+.col {
+    margin: 10px 0px;
+}
+
+.column {
+  float: left;
+  width: 12.5%;
+}
+
+.column img {
+    width: 100%;
+}
+
+/* ----------------------------------------------- */
+/* GALLERY */
+/* ----------------------------------------------- */
+
+.gallery-nav {
+    display: flex;
+    list-style: none;
+    font-size: 85%;
+    margin-bottom: 10px;
+}
+
+.gallery-nav li {
+    display: inline-block;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+}
+
+.gallery-nav li a:link,
+.gallery-nav li a:visited {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.gallery-nav li a:focus {
+    color: #F39800;
+}
+
+.gallery-row {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.gallery-photo {
+    margin: 0;
+}
+
+.gallery-photo img{
+    width: 48%;
+    height: auto;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.RWDdisplay {
+    display: none;
+}
+
+.RWDmiddle {
+    display: none;
+}
+
+.gallery-tab {
+    display: none;
+    position: relative;
+}
+
+.gallery-textfield {
+    clear: both;
+    color: black;
+    margin: 0 4%;
+}
+
+.gallery-textfield h2 {
+    padding-top: 50px;
+    font-size: 85%;
+}
+
+.gallery-textfield p {
+    margin: 40px 0px;
+    font-size: 85%;
+    line-height: 150%;
+}
+
+.gallery-textfield p:last-child {
+    margin: 0;
+}
+
+.gallery-exhibition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-exhibition img {
+    transform: scale(0.75);
+    max-width: 100%;
+    position: relative;
+}
+
+.gallery-exhibition p {
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+    
+    font-size: 80%;
+}
+
+#script {
+    position: relative;
+}
+
+.addLine {
+    display: none;
+}
+
+.post-script.addLine {
+    display: inline;
+    position: absolute;
+    right: %;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #000;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.mySlides {
+    padding-bottom: 3%;
+}
+
+.mySlides img {
+    max-height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeT {
+  color: black;
+  position: absolute;
+  top: -1%;
+  right: -1%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closeT:hover,
+.closeT:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo,
+.demo_full {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover,
+.demo_full:hover {
+  opacity: 1;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.galpho-js-wp-1,
+.galpho-js-wp-2,
+.galpho-js-wp-3,
+.galpho-js-wp-4,
+.galpho-js-wp-5 {
+    opacity: 0;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+}
+
+.galpho-js-wp-1.animated,
+.galpho-js-wp-2.animated,
+.galpho-js-wp-3.animated,
+.galpho-js-wp-4.animated,
+.galpho-js-wp-5.animated {
+    opacity: 1;
+}
+
+/* Add Animation */
+.mySlides{    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@media only screen and (max-width: 1023px) {
+    .mySlides img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .gallery-exhibition p {
+        bottom: 75px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .span-1-of-3 {
+    width: 50%;
+  }
+    
+    .gallery-nav {
+        display: none;
+    }
+    
+    .closeT {
+        display: none;
+    }
+    
+    .mobile-mainNav {
+        padding-bottom: 20px;
+        font-size: 75%;
+    }
+    
+    .RWDhidden {
+        display: none;
+    }
+    
+    .RWDmiddle {
+        display: block;
+    }
+    
+    .gallery-exhibition {
+        margin: 5% 0 -5% 0;
+    }
+    
+    .gallery-exhibition img {
+        transform: scale(0.9);
+    }
+    
+    .gallery-exhibition p {
+        bottom: 30px;
+        font-size: 70%;
+    }
+    
+    .post-script.addLine {
+        display: inline;
+        position: absolute;
+        right: 5%;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .demo_full {display: none;}
+    .column {width: 25%;}
+    .span-1-of-3 {
+    width: 100%;
+  }
+    
+    .RWDdisplay {
+        display: block;
+    }
+    
+    .RWDmiddle {
+        display: none;
+    }
+    
+    .gallery-textfield p {
+        margin: 20px 0px;
+        font-size: 80%;
+    }
+    
+    .gallery-exhibition p {
+        bottom: 25px;
+        font-size: 50%;
+    }
+    
+    .post-script.addLine {
+        display: inline;
+        position: absolute;
+        right: 5%;
+    }
+    
+    .addLine {
+        display: inline;
+    }
+    
+    .eraseLine {
+        display: none;
+    }
+}
