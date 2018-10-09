@@ -104,7 +104,7 @@ function handleEnd(ev) {
 }
 
 const setupTouchEvListener = function() {
-    var touch = document.querySelector("touchEv");
+    var touch = document.querySelector(".touchEv");
     
     console.log("initialized.");
     
