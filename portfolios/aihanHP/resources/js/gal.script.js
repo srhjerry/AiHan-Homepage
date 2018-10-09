@@ -87,12 +87,29 @@ function getPhotoSRC(slideIndex){
     return photosrc;
 }
 
+function handleStart(ev) {
+    ev.preventDefault();
+    
+    openModal();
+    
+    console.log("touch started.");
+}
+
+function handleEnd(ev) {
+    ev.preventDefault();
+    
+    currentSlide(30);
+    
+    console.log("touch ended.");
+}
 
 const setupTouchEvListener = function() {
     var touch = document.querySelector("touchEv");
     
-    touch.addEventListener("touchstart", openModal, false);
-    touch.addEventListener("touchend", currentSlide(30), false);
+    console.log("initialized.");
+    
+    touch.addEventListener("touchstart", handleStart, false);
+    touch.addEventListener("touchend", handleEnd, false);
     
 }
 
