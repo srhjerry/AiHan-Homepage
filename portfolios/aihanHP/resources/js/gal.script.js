@@ -87,7 +87,16 @@ function getPhotoSRC(slideIndex){
     return photosrc;
 }
 
-document.querySelector("touchEv").addEventListener('touchstart', openModal);
+
+const setupTouchEvListener = function() {
+    var touch = document.querySelector("touchEv");
+    
+    touch.addEventListener("touchstart", openModal, false);
+    touch.addEventListener("touchend", currentSlide(30), false);
+    
+}
+
+setupTouchEvListener();
 
 /*window.onload = function() {
 	setTimeout(function() {
