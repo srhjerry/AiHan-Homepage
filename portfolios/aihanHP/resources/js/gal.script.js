@@ -87,6 +87,8 @@ function getPhotoSRC(slideIndex){
     return photosrc;
 }
 
+document.querySelector("touchEv").addEventListener('touchstart', openModal);
+
 /*window.onload = function() {
 	setTimeout(function() {
 		// preload image
